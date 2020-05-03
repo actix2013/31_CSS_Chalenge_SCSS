@@ -1,0 +1,11 @@
+.line-one {
+    > li {
+      div {
+        &:nth-child(1n+0) {
+          @include myRing($ring1-size, $ring1-strenght, $ring1-color-orange);
+        }
+        }
+
+
+    }
+}

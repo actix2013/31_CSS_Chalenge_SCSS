@@ -1,0 +1,18 @@
+
+.line-tree {
+   li {
+    display: grid;
+    grid-template-columns: 2%;
+    $new-ring-size: $ring3-size;
+    @for $i from 1 through 6 {
+      div {
+        &:nth-child(#{$i}) {
+          $new-ring-size: 1+ $new-ring-size;
+          @include myRingNoResp($new-ring-size, $ring3-strenght, lighten($ring3-color, 10% * $i));
+        }
+
+      }
+    }
+  }
+
+}

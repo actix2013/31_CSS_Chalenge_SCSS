@@ -1,0 +1,127 @@
+ul {
+  margin-top: 50px;
+}
+ul > li {
+  font-family: fantasy;
+  font-size: 48px;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.line-one > li div:nth-child(1n+0) {
+  width: 2vw;
+  height: 2vw;
+  border-width: 0.2vw;
+  border-color: orange;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 0.2vw #664200, 0 0 0.2vw #664200;
+}
+
+.line-two > li div {
+  width: 12vw;
+  height: 12vw;
+  border-width: 0.8vw;
+  border-color: #e6e600;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 1.2vw #4d4d00, 0 0 1.2vw #4d4d00;
+  border-width: 20px;
+}
+
+.line-tree li {
+  display: grid;
+  grid-template-columns: 2%;
+}
+.line-tree li div:nth-child(1) {
+  width: 9vw;
+  min-width: 9vw;
+  max-width: 9vw;
+  height: 9vw;
+  min-height: 9vw;
+  max-height: 9vw;
+  border-width: 0.4444444444vw;
+  border-color: #8d9aa6;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 0.9vw #434d57, 0 0 0.9vw #434d57;
+}
+.line-tree li div:nth-child(2) {
+  width: 10vw;
+  min-width: 10vw;
+  max-width: 10vw;
+  height: 10vw;
+  min-height: 10vw;
+  max-height: 10vw;
+  border-width: 0.4444444444vw;
+  border-color: #a9b3bd;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 1vw #5a6773, 0 0 1vw #5a6773;
+}
+.line-tree li div:nth-child(3) {
+  width: 11vw;
+  min-width: 11vw;
+  max-width: 11vw;
+  height: 11vw;
+  min-height: 11vw;
+  max-height: 11vw;
+  border-width: 0.4444444444vw;
+  border-color: #c6cdd3;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 1.1vw slategray, 0 0 1.1vw slategray;
+}
+.line-tree li div:nth-child(4) {
+  width: 12vw;
+  min-width: 12vw;
+  max-width: 12vw;
+  height: 12vw;
+  min-height: 12vw;
+  max-height: 12vw;
+  border-width: 0.4444444444vw;
+  border-color: #e3e6e9;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 1.2vw #8d9aa6, 0 0 1.2vw #8d9aa6;
+}
+.line-tree li div:nth-child(5) {
+  width: 13vw;
+  min-width: 13vw;
+  max-width: 13vw;
+  height: 13vw;
+  min-height: 13vw;
+  max-height: 13vw;
+  border-width: 0.4444444444vw;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 1.3vw #a9b3bc, 0 0 1.3vw #a9b3bc;
+}
+.line-tree li div:nth-child(6) {
+  width: 14vw;
+  min-width: 14vw;
+  max-width: 14vw;
+  height: 14vw;
+  min-height: 14vw;
+  max-height: 14vw;
+  border-width: 0.4444444444vw;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 1.4vw #a9b3bc, 0 0 1.4vw #a9b3bc;
+}
+
+/*# sourceMappingURL=index.css.map */
