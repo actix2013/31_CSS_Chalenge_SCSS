@@ -23,26 +23,24 @@
     </ul>
 
     <ul class="row line-tree">
-        <li class="col-1">
-            <div></div>
+        <li class="col-1 ">
+            <div class="cola1"></div>
         </li>
-        <li class="col-1">
-            <div></div>
+        <li class="col-1 ">
+            <div class="cola2"></div>
         </li>
-        <li class="col-1">
-            <div></div>
+        <li class="col-1 ">
+            <div class="cola3"></div>
         </li>
-        <li class="col-1">
-            <div></div>
+        <li class="col-1 ">
+            <div class="cola4"></div>
         </li>
-        <li class="col-1">
-            <div></div>
+        <li class="col-1 ">
+            <div class="cola5"></div>
         </li>
-        <li class="col-1">
-            <div></div>
+        <li class="col-1 ">
+            <div class="cola6"></div>
         </li>
-
-
     </ul>
 
 

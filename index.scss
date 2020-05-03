@@ -11,8 +11,8 @@ $ring2-color-yellow: yellow;
 $ring2-size: 12vw;
 $ring2-strenght: $ring2-size/15;
 $ring3-color: slategray;
-$ring3-size: 8vw;
-$ring3-strenght: $ring3-size/18;
+$ring3-size: 4vw;
+$ring3-strenght: $ring3-size/5;
 
 @mixin myShadows ($shadow-size, $color, $percent-darker) {
 $dark_color: darken($color, $percent-darker);
