@@ -46,7 +46,7 @@ $ring3-strenght: $ring3-size/5;
 }
 
 @function changeRingThicknessMoreSmall($size) {
-  @return  #{$size/2}px ;
+  @return  #{$size/2}px;
 }
 
 ul {
@@ -63,6 +63,6 @@ ul {
   }
 }
 
-@import '_lineOne';
-@import '_lineTwo';
-@import '_lineTree';
+@import '_lineOne.scss';
+@import '_lineTwo.scss';
+@import '_lineTree.scss';
