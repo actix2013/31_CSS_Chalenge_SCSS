@@ -14,8 +14,8 @@ $ring3-color: slategray;
 $ring3-size: 4vw;
 $ring3-strenght: $ring3-size/5;
 
-@mixin myShadows ($shadow-size, $color, $percent-darker) {
-$dark_color: darken($color, $percent-darker);
+@mixin myShadows($shadow-size, $color, $percent-darker) {
+  $dark_color: darken($color, $percent-darker);
   box-shadow: inset 0 0 $shadow-size/10 $dark_color, 0 0 $shadow-size/10 $dark_color;
 }
 
@@ -27,7 +27,7 @@ $dark_color: darken($color, $percent-darker);
   border-style: solid;
   border-radius: 50%;
   background-color: transparent;
-  @include myShadows($size, $color,30%);
+  @include myShadows($size, $color, 30%);
 }
 
 @mixin myRingNoResp($size, $border-width, $color) {
@@ -45,27 +45,22 @@ $dark_color: darken($color, $percent-darker);
   @include myShadows($size, $color, 30%);
 }
 
-
-@mixin changeRingThickness($size) {
-  border-width: $size;
+@function changeRingThicknessMoreSmall($size) {
+  @return  #{$size/2}px ;
 }
-
 
 ul {
   margin-top: 50px;
-
   > li {
     font-family: fantasy;
     font-size: 48px;
     list-style-type: none;
     text-align: center;
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
-align-content: center;
-
+    align-content: center;
   }
-
 }
 
 @import '_lineOne';
