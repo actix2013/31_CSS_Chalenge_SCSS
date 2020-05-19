@@ -2,8 +2,8 @@
   > li {
     div {
       @include myRing($ring2-size, $ring2-strenght, darken($ring2-color-yellow,05%));
-      border-width: changeRingThicknessMoreSmall(500);
-  border-width: 25vw;
+      border-width: changeRingThicknessMoreSmall(50);
+
     }
   }
 }
